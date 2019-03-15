@@ -1,0 +1,19 @@
+h2 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+h2:before, h2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #212529;
+}
+h2:before {
+    margin-left: -50%;
+    text-align: right;
+}
