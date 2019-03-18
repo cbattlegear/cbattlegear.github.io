@@ -17,3 +17,8 @@ h2:before {
     margin-left: -50%;
     text-align: right;
 }
+
+.frontlink {
+    font-size: 2.5em;
+    text-align: center;
+}
